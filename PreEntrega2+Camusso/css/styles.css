@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(184, 91, 122);
+}
+
+.menu {
+   
+    margin: 50px 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-principal {
+    margin: 50px;
+    width: 10%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.menu li {
+    justify-content: space-between;
+    margin: 20px;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    width: 100%;
+    font-size: larger;
+   
+    color: beige;
+}
+
+.menu a {
+    color: beige;
+    text-decoration: none;
+}
+
+#logo {
+    margin: 20px;
+}
+
+ 
+
+
+/* mediaquieries de tablet */
+
+@media screen and (min-width: 600px) {
+   
+}
+
+/*MQ DE DESKTOP*/
+
+@media screen and (min-width:1024px) {
+    
+}
+
