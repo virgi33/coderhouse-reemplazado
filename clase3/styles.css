@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color:black;
+    background-color: aliceblue;
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+    margin: 0px 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 5px 5px 15px black;
+}
+
+header img {
+    width: 10%;
+}
+
+header nav {
+    margin-right: 30px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+main {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .img img {
+    width: 78%;
+}
+
+main .textos {
+    text-align: center;
+}
+
+main .textos h1 {
+    margin: 10px 0px;
+}
+
+main .textos h1 span {
+    display: block;
+}
+
+main .textos .boton {
+    background-color: black;
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 5px 5px 15px black;
+
+}
+
+main .img {
+    display: flex;
+    justify-content: center;
+
+}
+
+/*estilos de section*/
+
+section {
+    background-color: black;
+    color: aliceblue;
+    padding: 30px;
+    margin: 0px 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    box-shadow: 5px 5px 15px black;
+
+}
+
+section .div {
+    text-align: center;
+}
+
+section div h3 {
+    margin: 10px;
+}
+
+section .div .img {
+    width: 30%;
+
+}
+
+footer {
+    margin: 10px;
+    text-align: center;
+}
