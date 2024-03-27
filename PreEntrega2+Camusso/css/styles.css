@@ -14,15 +14,30 @@ header {
 }
 
 
-
 .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    
     padding: 20px;
     margin: 20px;
 }
+
+.equipos {
+    display: flex;
+    flex-direction: row;
+
+}
+
+@media screen and (max-width:1024px) {
+    .menu {
+        flex-direction: column;
+    }
+    .equipos {
+        flex-direction: column;
+    }
+}
+
 
 .menu li {
     justify-content: space-between;
@@ -81,7 +96,7 @@ footer img {
 }
 
 footer a {
-    
+
 }
 
 

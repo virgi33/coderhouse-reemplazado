@@ -68,19 +68,6 @@ footer {
 
 /* mediaquieries de tablet */
 
-@media screen and (min-width: 600px) {
-    main {
-        height: 65vh;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows:repeat(2, 50%) ;
-    }
-    main .img-cuatro {
-        grid-column: span 2; /*que ocupe dos de los dos columnas*/
-    }
-    footer {
-        margin-top: 60px;
-    }
-}
 
 /*MQ DE DESKTOP*/
 
