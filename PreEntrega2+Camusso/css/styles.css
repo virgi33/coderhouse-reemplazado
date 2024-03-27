@@ -54,12 +54,34 @@ header {
 }
 
 .parrafo-inicio  {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 200px;
 }
 
 .imagen-inicio {
     width: 600px;
     margin-top: 200px;
+}
+
+
+
+footer {
+    background: rgb(126, 48, 126);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    padding-left: 25%;
+    padding-right: 25%;  
+    
+}
+
+footer img {
+    width: 80px;
+}
+
+footer a {
+    
 }
 
 
